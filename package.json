@@ -22,7 +22,7 @@
     "uuidv4": "^6.2.7"
   },
   "scripts": {
-    "build": "tsc --project ./",
+    "build": "nuxt generate",
     "start": "node dist/server.js",
     "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_models src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
