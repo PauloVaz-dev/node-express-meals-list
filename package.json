@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "tsc --project ./",
-    "start": "node dist/server.js",
+    "start": "node public/server.js",
     "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_models src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
