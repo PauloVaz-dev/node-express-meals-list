@@ -21,6 +21,9 @@
     "typeorm": "^0.2.32",
     "uuidv4": "^6.2.7"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "build": "tsc --project ./",
     "start": "node public/server.js",
